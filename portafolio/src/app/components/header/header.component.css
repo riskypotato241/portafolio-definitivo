@@ -1,19 +1,22 @@
 * {
-background-color: #635e5e;  
 margin: 0;  
+padding: 0;
 }
 
 
-.container {
+.container-fluid {
+    background-color: #635e5e;      
+    padding: 10px;
+    margin: 0;
     display:flex;
     color: white;
     flex-flow: row wrap; 
     justify-content: space-between;  
+    align-items: center;    
 }
 
-
 .logo  {
-    width: 150px;
+    width: 400px;
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -24,8 +27,8 @@ margin: 0;
     height: 40px;
     display: flex;
     justify-content: flex-end;
-    margin: 30px;
-    gap: 10px;
+    
+    gap: 20px;
 }
 
 
