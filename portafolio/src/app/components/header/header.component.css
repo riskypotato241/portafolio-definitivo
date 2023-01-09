@@ -27,8 +27,28 @@ padding: 0;
     height: 40px;
     display: flex;
     justify-content: flex-end;
-    
     gap: 20px;
+}
+
+@media (max-width: 575px) {
+.container-fluid {
+    flex-direction: column;
+    height: 400px;
+}
+.logo {
+    width: 250px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contacto {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
 }
 
 
