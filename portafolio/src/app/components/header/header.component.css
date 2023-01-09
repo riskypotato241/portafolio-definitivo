@@ -1,0 +1,33 @@
+* {
+background-color: #635e5e;  
+margin: 0;  
+}
+
+
+.container {
+    display:flex;
+    color: white;
+    flex-flow: row wrap; 
+    justify-content: space-between;  
+}
+
+
+.logo  {
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacto {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    gap: 10px;
+}
+
+
+
+
