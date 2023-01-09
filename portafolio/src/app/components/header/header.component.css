@@ -22,12 +22,20 @@ padding: 0;
     justify-content: flex-start;
 }
 
+
+
+
 .contacto {
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+}
+
+.contacto a img {
+    width: 40px;
+    height: 40px;
 }
 
 @media (max-width: 575px) {
