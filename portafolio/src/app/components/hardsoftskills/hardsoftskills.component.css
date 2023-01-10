@@ -1,6 +1,13 @@
-    .row{
-        margin: 0 auto;
-        padding: 0;
+    .container-fluid{
+        margin: 0;
+        padding: 40px;
         background-color: black;
         color: white;
+     
+    }
+
+    .row{
+        margin: 0;
+        padding: 0;
+    
     }

@@ -1,5 +1,5 @@
 .row {
-margin-top: 30px;   
+  
 background-color: #001133;
 color: white;
 }
@@ -52,7 +52,5 @@ p {
     padding: 25px;
     margin: 10px;
     }
-    p {
-        
-    }
 }
+
