@@ -13,10 +13,5 @@
         display: flex;
         justify-content: center;
         gap: 120px;
-    }
-
-    .row{
-        margin: 0;
-        padding: 0;
-        
+        flex-flow: row wrap;
     }
