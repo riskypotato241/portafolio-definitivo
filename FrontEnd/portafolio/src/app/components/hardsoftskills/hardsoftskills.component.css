@@ -3,11 +3,20 @@
         padding: 40px;
         background-color: black;
         color: white;
+        display: flex;
+        flex-flow: column wrap;
+        
      
+    }
+
+    .circle{
+        display: flex;
+        justify-content: center;
+        gap: 120px;
     }
 
     .row{
         margin: 0;
         padding: 0;
-    
+        
     }
